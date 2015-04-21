@@ -10,4 +10,4 @@ You have to choose the right frontend template fe_page_jsTemplates in your layou
 
 ## Advanced information
 
-You can add your own templates to the jsTemplates loader. Just add your parsed template to $GLOBALS['TL_CSS'][].
+You can add your own templates to the jsTemplates loader. Just add your parsed template to $GLOBALS['TL_CSS'][].	
