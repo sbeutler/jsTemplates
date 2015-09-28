@@ -25,7 +25,7 @@
 
 $GLOBALS['TL_DCA']['tl_layout']['palettes']['default'] = str_replace
 (
-    '{script_legend}',
+    array('{script_legend}', '{script_legend:hide}'),
     '{script_legend},jsTemplates',
     $GLOBALS['TL_DCA']['tl_layout']['palettes']['default']
 );
